@@ -87,7 +87,7 @@ class DosenController extends Controller
             'prodi' => 'required|string|max:100',
             'alamat' => 'required|string',
         ]);
-
+// 
         $dosen->update($validated);
 
         return redirect()

@@ -34,3 +34,4 @@ Route::prefix('dosen')
          Route::delete('/{dosen}', [DosenController::class, 'destroy'])->name('destroy');
 
      });
+    //  

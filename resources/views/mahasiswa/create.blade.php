@@ -11,7 +11,7 @@
         <div class="card-header bg-primary text-white">
             <h4 class="mb-0">Form Tambah Mahasiswa</h4>
         </div>
-
+{{--  --}}
         <div class="card-body">
 
             <form action="{{ route('mahasiswa.store') }}" method="POST">
